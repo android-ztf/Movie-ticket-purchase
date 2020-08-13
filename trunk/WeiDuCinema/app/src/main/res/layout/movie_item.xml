@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rl_movie_v"
+        >
+        
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/sdv_pic_chui"
+            android:layout_width="130dp"
+            android:layout_height="160dp"
+            app:placeholderImage="@mipmap/ic_launcher"
+            app:failureImage="@mipmap/ic_launcher"
+            android:layout_centerHorizontal="true"
+            app:roundedCornerRadius="10dp"
+            />
+        <TextView
+            android:id="@+id/tv_movie_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="评分"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:layout_alignBottom="@id/sdv_pic_chui"
+            android:layout_centerHorizontal="true"
+            />
+        <TextView
+            android:id="@+id/tv_movie_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/tv_movie_score"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:maxEms="6"
+            />
+
+        <Button
+            android:id="@+id/but_movie_buyticket"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/tv_movie_name"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="购票"
+            android:textColor="#ffffff"
+            android:background="@drawable/edittext"
+            android:backgroundTint="@color/colorAccent"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

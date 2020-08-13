@@ -1,0 +1,536 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:2:1-119:12
+INJECTED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:2:1-119:12
+INJECTED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:2:1-119:12
+INJECTED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:2:1-119:12
+MERGED from [io.realm:realm-android-library:6.0.2] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4533bd71819cab21f2c74ab8533a1c6b\jetified-realm-android-library-6.0.2\AndroidManifest.xml:2:1-10:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\41610f736bc9c702d80cde11051eaa0a\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jcodecraeer:xrecyclerview:1.5.9] C:\Users\123\.gradle\caches\transforms-2\files-2.1\045c16d6a8d2cc2feeca169beb2b25e7\jetified-xrecyclerview-1.5.9\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\a71db9e7ba55742e238589079f145b17\material-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [fm.jiecao:jiecaovideoplayer:5.5] C:\Users\123\.gradle\caches\transforms-2\files-2.1\7cf892b08fa5d3f895f43a6510dcd1e5\jetified-jiecaovideoplayer-5.5\AndroidManifest.xml:2:1-13:12
+MERGED from [cn.yipianfengye.android:zxing-library:2.2] C:\Users\123\.gradle\caches\transforms-2\files-2.1\68b181b389af65b7ed2e7d75f13785eb\jetified-zxing-library-2.2\AndroidManifest.xml:2:1-20:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\123\.gradle\caches\transforms-2\files-2.1\174105c29e497a858ec6ef62fd4532f5\appcompat-1.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\123\.gradle\caches\transforms-2\files-2.1\59553e20d5a06d34b60ac193437797b6\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\b4c9d8ad98352af19a0f58d2733bff74\rxandroid-2.1.0\AndroidManifest.xml:15:1-20:12
+MERGED from [com.jakewharton:butterknife:10.2.1] C:\Users\123\.gradle\caches\transforms-2\files-2.1\0f68383b1846a0a50c7bf6fc79e95aa4\butterknife-10.2.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:fresco:1.11.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\cc8e36c3f3b30b1928fffec185317b6a\jetified-fresco-1.11.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\63b1c5d7c6e5002af3ef85cce6be8961\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\b94fd6e64e7f60714e378d3b74f0cfbd\jetified-glide-4.9.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.xhb:xbanner:1.3.1] C:\Users\123\.gradle\caches\transforms-2\files-2.1\3584f0dc07b82da04a6d5a7f52ee2ac4\jetified-xbanner-1.3.1\AndroidManifest.xml:2:1-15:12
+MERGED from [:pulltorefresh] F:\study\Android\AndriodCode\Android_6\WeiDuCinema\pulltorefresh\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-13:12
+MERGED from [com.contrarywind:Android-PickerView:3.2.7] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4e1e6dc1a1b3ed14c6354af3e3722cd1\Android-PickerView-3.2.7\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\227fc69a93f31242b63031cefdfa76d2\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\98b89e27acfa1c7a6fc7ff07a4f114dc\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\9d67b4f8f830f04973eaadb6168d8c19\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\13d43865218e48ec390c04bdb0f776ac\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\50aa0bc9a13ad0370112e8567e951749\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:2:1-62:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.3.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\e7f1db5a28cfa142d4f2fb5281eb1f90\relinker-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\68505e2ce61519224b09b7b5dcace28d\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\123\.gradle\caches\transforms-2\files-2.1\051297ce54e0aab4bf259ae5222da48e\vectordrawable-1.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife-runtime:10.2.1] C:\Users\123\.gradle\caches\transforms-2\files-2.1\b25cb3875cb3093bcf1f8270c5d24802\butterknife-runtime-10.2.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\59434465462601b144789c876ab3c4c5\transition-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\1aa15e4df1ab05b6a16b794184eab1a3\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\f96c4f058282b73c07db497994d5b54d\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\b0b8f4f52f5834f61728f3caba221428\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\d7370d55bf84699573cc94049c8eacc4\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\38644b4165225f22c63b7d9d2463664c\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\f9333e1c5110f2cfff95a1da3c768068\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\088f5d37ae6f42283919c5283168c0b0\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\cd2ed10a267ae3d1bb41c41d93c777d5\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\588cc011fdf6b725f6b21553cda9a462\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\8113b6ca2e396bcfb35ccb38d6ad9f6f\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\ab0a17f261687f9f1f0a64a6ec380ec1\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\eb03a6bad495e77783012b008f7ba762\jetified-gifdecoder-4.9.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\8cd9a29dac014accccacc55bef4f1148\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\5ffb554872150868a9b47716558bf365\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\762e96f0815159ad76712bd11d45caf0\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\9f252c8c0353d7c18f3c4760dd928554\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\388d4eeb3a36e7a2ca3a9bcb209f93c6\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\8d98780f642e1afa9bd362bd61eda9aa\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\3ff07e2ca2c701eef7beefd00c56bfae\lifecycle-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\46941d9a36861a027d6b7e3f9505aa8b\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\7e158c2c6038427d15c15a468efc89d7\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\8918996adde0700444b4550815e0c9bb\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:drawee:1.11.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\1061347add4c7e991ea68a16d04d08ab\jetified-drawee-1.11.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:1.11.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\03828be8366e994b394c27ce1a39ffa2\nativeimagefilters-1.11.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.11.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\0196b422473b73bfef451d8712da6518\jetified-imagepipeline-1.11.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.11.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\655e141971fea7e9c70090336c8e437e\jetified-imagepipeline-base-1.11.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.11.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\d2a143e8c1ac6a1055e2e453dbcdab08\jetified-fbcore-1.11.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\123\.gradle\caches\transforms-2\files-2.1\c2f3611111462ecce9b74cad72f0a240\soloader-0.5.1\AndroidManifest.xml:2:1-13:12
+INJECTED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:2:1-119:12
+INJECTED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:2:1-119:12
+INJECTED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:2:1-119:12
+	package
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:4:5-27
+		INJECTED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml
+		INJECTED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:2:1-119:12
+		INJECTED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:2:1-119:12
+		INJECTED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:18:5-67
+MERGED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:7:5-79
+MERGED from [fm.jiecao:jiecaovideoplayer:5.5] C:\Users\123\.gradle\caches\transforms-2\files-2.1\7cf892b08fa5d3f895f43a6510dcd1e5\jetified-jiecaovideoplayer-5.5\AndroidManifest.xml:11:5-79
+MERGED from [fm.jiecao:jiecaovideoplayer:5.5] C:\Users\123\.gradle\caches\transforms-2\files-2.1\7cf892b08fa5d3f895f43a6510dcd1e5\jetified-jiecaovideoplayer-5.5\AndroidManifest.xml:11:5-79
+MERGED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:19:5-79
+MERGED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:10:5-76
+MERGED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:20:5-76
+MERGED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:20:5-76
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:10:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:11:5-76
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:11:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:12:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.CAMERA
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:14:5-65
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:14:22-62
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:15:5-82
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:15:22-80
+application
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:18:5-117:19
+MERGED from [com.jcodecraeer:xrecyclerview:1.5.9] C:\Users\123\.gradle\caches\transforms-2\files-2.1\045c16d6a8d2cc2feeca169beb2b25e7\jetified-xrecyclerview-1.5.9\AndroidManifest.xml:11:5-20
+MERGED from [com.jcodecraeer:xrecyclerview:1.5.9] C:\Users\123\.gradle\caches\transforms-2\files-2.1\045c16d6a8d2cc2feeca169beb2b25e7\jetified-xrecyclerview-1.5.9\AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\a71db9e7ba55742e238589079f145b17\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\a71db9e7ba55742e238589079f145b17\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [cn.yipianfengye.android:zxing-library:2.2] C:\Users\123\.gradle\caches\transforms-2\files-2.1\68b181b389af65b7ed2e7d75f13785eb\jetified-zxing-library-2.2\AndroidManifest.xml:11:5-18:19
+MERGED from [cn.yipianfengye.android:zxing-library:2.2] C:\Users\123\.gradle\caches\transforms-2\files-2.1\68b181b389af65b7ed2e7d75f13785eb\jetified-zxing-library-2.2\AndroidManifest.xml:11:5-18:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\123\.gradle\caches\transforms-2\files-2.1\59553e20d5a06d34b60ac193437797b6\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\123\.gradle\caches\transforms-2\files-2.1\59553e20d5a06d34b60ac193437797b6\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\b94fd6e64e7f60714e378d3b74f0cfbd\jetified-glide-4.9.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\b94fd6e64e7f60714e378d3b74f0cfbd\jetified-glide-4.9.0\AndroidManifest.xml:10:5-20
+MERGED from [com.xhb:xbanner:1.3.1] C:\Users\123\.gradle\caches\transforms-2\files-2.1\3584f0dc07b82da04a6d5a7f52ee2ac4\jetified-xbanner-1.3.1\AndroidManifest.xml:9:5-13:19
+MERGED from [com.xhb:xbanner:1.3.1] C:\Users\123\.gradle\caches\transforms-2\files-2.1\3584f0dc07b82da04a6d5a7f52ee2ac4\jetified-xbanner-1.3.1\AndroidManifest.xml:9:5-13:19
+MERGED from [:pulltorefresh] F:\study\Android\AndriodCode\Android_6\WeiDuCinema\pulltorefresh\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-20
+MERGED from [:pulltorefresh] F:\study\Android\AndriodCode\Android_6\WeiDuCinema\pulltorefresh\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-20
+MERGED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:22:5-60:19
+MERGED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:22:5-60:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\588cc011fdf6b725f6b21553cda9a462\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\588cc011fdf6b725f6b21553cda9a462\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\8113b6ca2e396bcfb35ccb38d6ad9f6f\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\8113b6ca2e396bcfb35ccb38d6ad9f6f\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\eb03a6bad495e77783012b008f7ba762\jetified-gifdecoder-4.9.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\eb03a6bad495e77783012b008f7ba762\jetified-gifdecoder-4.9.0\AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\123\.gradle\caches\transforms-2\files-2.1\c2f3611111462ecce9b74cad72f0a240\soloader-0.5.1\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\123\.gradle\caches\transforms-2\files-2.1\c2f3611111462ecce9b74cad72f0a240\soloader-0.5.1\AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\588cc011fdf6b725f6b21553cda9a462\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:24:9-35
+	android:label
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:22:9-41
+	android:roundIcon
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:23:9-54
+	android:icon
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:21:9-38
+	android:allowBackup
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:20:9-35
+	android:theme
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:26:9-65
+	android:networkSecurityConfig
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:25:9-69
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:19:9-40
+activity#com.bw.movie.view.activity.mine.SysMsgAllActivity
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:27:9-83
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:27:19-71
+activity#com.bw.movie.view.activity.mine.MineInfoActivity
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:28:9-30:70
+	android:windowSoftInputMode
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:30:13-67
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:29:13-64
+activity#com.bw.movie.view.activity.mine.MineTicketActivity
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:31:9-75
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:31:19-72
+activity#com.bw.movie.view.activity.mine.RecordDetailActivity
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:32:9-77
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:32:19-74
+activity#com.bw.movie.view.activity.mine.MineTicketRecordActivity
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:33:9-81
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:33:19-78
+activity#com.bw.movie.view.activity.mine.NewVersionActivity
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:34:9-75
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:34:19-72
+activity#com.bw.movie.view.activity.mine.UserSetActivity
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:35:9-72
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:35:19-69
+activity#com.bw.movie.wxapi.WXPayEntryActivity
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:36:9-38:39
+	android:exported
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:38:13-36
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:37:13-53
+activity#com.bw.movie.wxapi.WXEntryActivity
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:39:9-41:39
+	android:exported
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:41:13-36
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:40:13-50
+activity#com.bw.movie.view.activity.mine.MineCommentActivity
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:42:9-76
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:42:19-73
+activity#com.bw.movie.view.activity.mine.UserSeenActivity
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:43:9-73
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:43:19-70
+activity#com.bw.movie.view.activity.mine.FeedBackActivity
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:44:9-73
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:44:19-70
+activity#com.bw.movie.view.activity.mine.MineReserveActivity
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:45:9-76
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:45:19-73
+activity#com.bw.movie.view.activity.mine.MineFollowActivity
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:46:9-75
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:46:19-72
+activity#com.bw.movie.view.activity.CommentDetailActivity
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:47:9-73
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:47:19-70
+activity#com.bw.movie.view.activity.WriteCommentActivity
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:48:9-72
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:48:19-69
+activity#com.bw.movie.view.activity.BuyTicketActivity
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:49:9-69
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:49:19-66
+activity#com.bw.movie.view.activity.SelectCinemaActivity
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:50:9-72
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:50:19-69
+activity#com.bw.movie.view.activity.CinemaMovieListActivity
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:51:9-75
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:51:19-72
+activity#com.bw.movie.view.activity.CinemaInfoActivity
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:52:9-70
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:52:19-67
+activity#com.bw.movie.view.activity.DetailMovieActivity
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:53:9-71
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:53:19-68
+activity#com.bw.movie.view.activity.ForgetPwdActivity
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:54:9-69
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:54:19-66
+activity#com.bw.movie.view.activity.MoreActivity
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:55:9-64
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:55:19-61
+activity#com.bw.movie.view.activity.SeekActivity
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:56:9-64
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:56:19-61
+activity#com.bw.movie.view.activity.NotNetActivity
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:57:9-66
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:57:19-63
+activity#com.bw.movie.view.activity.WelcomeActivity
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:58:9-64:20
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:58:19-64
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:59:13-63:29
+action#android.intent.action.MAIN
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:60:17-69
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:60:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:62:17-77
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:62:27-74
+activity#com.bw.movie.view.activity.HomeActivity
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:65:9-67:47
+	android:launchMode
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:67:13-44
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:66:13-55
+activity#com.bw.movie.view.activity.RegisterActivity
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:68:9-68
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:68:19-65
+activity#com.bw.movie.view.activity.LoginActivity
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:69:9-65
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:69:19-62
+meta-data#com.amap.api.v2.apikey
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:71:9-73:64
+	android:value
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:73:13-61
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:72:13-50
+service#com.amap.api.location.APSService
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:75:9-68
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:75:18-65
+receiver#com.bw.movie.receive.InstallReceiver
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:77:9-81:20
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:77:19-58
+intent-filter#action:name:android.intent.action.DOWNLOAD_COMPLETE
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:78:13-80:29
+action#android.intent.action.DOWNLOAD_COMPLETE
+ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:79:17-82
+	android:name
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:79:25-79
+uses-sdk
+INJECTED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml
+INJECTED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml
+MERGED from [io.realm:realm-android-library:6.0.2] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4533bd71819cab21f2c74ab8533a1c6b\jetified-realm-android-library-6.0.2\AndroidManifest.xml:6:5-8:41
+MERGED from [io.realm:realm-android-library:6.0.2] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4533bd71819cab21f2c74ab8533a1c6b\jetified-realm-android-library-6.0.2\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\41610f736bc9c702d80cde11051eaa0a\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\41610f736bc9c702d80cde11051eaa0a\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.jcodecraeer:xrecyclerview:1.5.9] C:\Users\123\.gradle\caches\transforms-2\files-2.1\045c16d6a8d2cc2feeca169beb2b25e7\jetified-xrecyclerview-1.5.9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jcodecraeer:xrecyclerview:1.5.9] C:\Users\123\.gradle\caches\transforms-2\files-2.1\045c16d6a8d2cc2feeca169beb2b25e7\jetified-xrecyclerview-1.5.9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\a71db9e7ba55742e238589079f145b17\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\a71db9e7ba55742e238589079f145b17\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [fm.jiecao:jiecaovideoplayer:5.5] C:\Users\123\.gradle\caches\transforms-2\files-2.1\7cf892b08fa5d3f895f43a6510dcd1e5\jetified-jiecaovideoplayer-5.5\AndroidManifest.xml:7:5-9:41
+MERGED from [fm.jiecao:jiecaovideoplayer:5.5] C:\Users\123\.gradle\caches\transforms-2\files-2.1\7cf892b08fa5d3f895f43a6510dcd1e5\jetified-jiecaovideoplayer-5.5\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.yipianfengye.android:zxing-library:2.2] C:\Users\123\.gradle\caches\transforms-2\files-2.1\68b181b389af65b7ed2e7d75f13785eb\jetified-zxing-library-2.2\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.yipianfengye.android:zxing-library:2.2] C:\Users\123\.gradle\caches\transforms-2\files-2.1\68b181b389af65b7ed2e7d75f13785eb\jetified-zxing-library-2.2\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\123\.gradle\caches\transforms-2\files-2.1\174105c29e497a858ec6ef62fd4532f5\appcompat-1.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\123\.gradle\caches\transforms-2\files-2.1\174105c29e497a858ec6ef62fd4532f5\appcompat-1.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\123\.gradle\caches\transforms-2\files-2.1\59553e20d5a06d34b60ac193437797b6\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\123\.gradle\caches\transforms-2\files-2.1\59553e20d5a06d34b60ac193437797b6\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\b4c9d8ad98352af19a0f58d2733bff74\rxandroid-2.1.0\AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\b4c9d8ad98352af19a0f58d2733bff74\rxandroid-2.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.jakewharton:butterknife:10.2.1] C:\Users\123\.gradle\caches\transforms-2\files-2.1\0f68383b1846a0a50c7bf6fc79e95aa4\butterknife-10.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:10.2.1] C:\Users\123\.gradle\caches\transforms-2\files-2.1\0f68383b1846a0a50c7bf6fc79e95aa4\butterknife-10.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:fresco:1.11.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\cc8e36c3f3b30b1928fffec185317b6a\jetified-fresco-1.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.11.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\cc8e36c3f3b30b1928fffec185317b6a\jetified-fresco-1.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\63b1c5d7c6e5002af3ef85cce6be8961\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\63b1c5d7c6e5002af3ef85cce6be8961\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\b94fd6e64e7f60714e378d3b74f0cfbd\jetified-glide-4.9.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\b94fd6e64e7f60714e378d3b74f0cfbd\jetified-glide-4.9.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.xhb:xbanner:1.3.1] C:\Users\123\.gradle\caches\transforms-2\files-2.1\3584f0dc07b82da04a6d5a7f52ee2ac4\jetified-xbanner-1.3.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.xhb:xbanner:1.3.1] C:\Users\123\.gradle\caches\transforms-2\files-2.1\3584f0dc07b82da04a6d5a7f52ee2ac4\jetified-xbanner-1.3.1\AndroidManifest.xml:5:5-7:41
+MERGED from [:pulltorefresh] F:\study\Android\AndriodCode\Android_6\WeiDuCinema\pulltorefresh\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:pulltorefresh] F:\study\Android\AndriodCode\Android_6\WeiDuCinema\pulltorefresh\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.contrarywind:Android-PickerView:3.2.7] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4e1e6dc1a1b3ed14c6354af3e3722cd1\Android-PickerView-3.2.7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.contrarywind:Android-PickerView:3.2.7] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4e1e6dc1a1b3ed14c6354af3e3722cd1\Android-PickerView-3.2.7\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\227fc69a93f31242b63031cefdfa76d2\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\227fc69a93f31242b63031cefdfa76d2\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\98b89e27acfa1c7a6fc7ff07a4f114dc\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\98b89e27acfa1c7a6fc7ff07a4f114dc\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\9d67b4f8f830f04973eaadb6168d8c19\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\9d67b4f8f830f04973eaadb6168d8c19\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\13d43865218e48ec390c04bdb0f776ac\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\13d43865218e48ec390c04bdb0f776ac\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\50aa0bc9a13ad0370112e8567e951749\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\50aa0bc9a13ad0370112e8567e951749\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:7:5-9:41
+MERGED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:7:5-9:41
+MERGED from [com.getkeepsafe.relinker:relinker:1.3.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\e7f1db5a28cfa142d4f2fb5281eb1f90\relinker-1.3.0\AndroidManifest.xml:5:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.3.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\e7f1db5a28cfa142d4f2fb5281eb1f90\relinker-1.3.0\AndroidManifest.xml:5:5-43
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\68505e2ce61519224b09b7b5dcace28d\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\68505e2ce61519224b09b7b5dcace28d\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\123\.gradle\caches\transforms-2\files-2.1\051297ce54e0aab4bf259ae5222da48e\vectordrawable-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\123\.gradle\caches\transforms-2\files-2.1\051297ce54e0aab4bf259ae5222da48e\vectordrawable-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.2.1] C:\Users\123\.gradle\caches\transforms-2\files-2.1\b25cb3875cb3093bcf1f8270c5d24802\butterknife-runtime-10.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.2.1] C:\Users\123\.gradle\caches\transforms-2\files-2.1\b25cb3875cb3093bcf1f8270c5d24802\butterknife-runtime-10.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\59434465462601b144789c876ab3c4c5\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\59434465462601b144789c876ab3c4c5\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\1aa15e4df1ab05b6a16b794184eab1a3\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\1aa15e4df1ab05b6a16b794184eab1a3\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\f96c4f058282b73c07db497994d5b54d\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\f96c4f058282b73c07db497994d5b54d\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\b0b8f4f52f5834f61728f3caba221428\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\b0b8f4f52f5834f61728f3caba221428\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\d7370d55bf84699573cc94049c8eacc4\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\d7370d55bf84699573cc94049c8eacc4\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\38644b4165225f22c63b7d9d2463664c\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\38644b4165225f22c63b7d9d2463664c\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\f9333e1c5110f2cfff95a1da3c768068\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\f9333e1c5110f2cfff95a1da3c768068\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\088f5d37ae6f42283919c5283168c0b0\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\088f5d37ae6f42283919c5283168c0b0\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\cd2ed10a267ae3d1bb41c41d93c777d5\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\cd2ed10a267ae3d1bb41c41d93c777d5\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\588cc011fdf6b725f6b21553cda9a462\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\588cc011fdf6b725f6b21553cda9a462\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\8113b6ca2e396bcfb35ccb38d6ad9f6f\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\8113b6ca2e396bcfb35ccb38d6ad9f6f\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\ab0a17f261687f9f1f0a64a6ec380ec1\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\ab0a17f261687f9f1f0a64a6ec380ec1\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\eb03a6bad495e77783012b008f7ba762\jetified-gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\eb03a6bad495e77783012b008f7ba762\jetified-gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\8cd9a29dac014accccacc55bef4f1148\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\8cd9a29dac014accccacc55bef4f1148\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\5ffb554872150868a9b47716558bf365\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\5ffb554872150868a9b47716558bf365\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\762e96f0815159ad76712bd11d45caf0\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\762e96f0815159ad76712bd11d45caf0\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\9f252c8c0353d7c18f3c4760dd928554\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\9f252c8c0353d7c18f3c4760dd928554\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\388d4eeb3a36e7a2ca3a9bcb209f93c6\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\388d4eeb3a36e7a2ca3a9bcb209f93c6\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\8d98780f642e1afa9bd362bd61eda9aa\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\8d98780f642e1afa9bd362bd61eda9aa\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\3ff07e2ca2c701eef7beefd00c56bfae\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\3ff07e2ca2c701eef7beefd00c56bfae\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\46941d9a36861a027d6b7e3f9505aa8b\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\46941d9a36861a027d6b7e3f9505aa8b\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\7e158c2c6038427d15c15a468efc89d7\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\7e158c2c6038427d15c15a468efc89d7\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\8918996adde0700444b4550815e0c9bb\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\8918996adde0700444b4550815e0c9bb\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:drawee:1.11.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\1061347add4c7e991ea68a16d04d08ab\jetified-drawee-1.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.11.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\1061347add4c7e991ea68a16d04d08ab\jetified-drawee-1.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:1.11.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\03828be8366e994b394c27ce1a39ffa2\nativeimagefilters-1.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:1.11.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\03828be8366e994b394c27ce1a39ffa2\nativeimagefilters-1.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.11.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\0196b422473b73bfef451d8712da6518\jetified-imagepipeline-1.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.11.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\0196b422473b73bfef451d8712da6518\jetified-imagepipeline-1.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.11.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\655e141971fea7e9c70090336c8e437e\jetified-imagepipeline-base-1.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.11.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\655e141971fea7e9c70090336c8e437e\jetified-imagepipeline-base-1.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.11.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\d2a143e8c1ac6a1055e2e453dbcdab08\jetified-fbcore-1.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.11.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\d2a143e8c1ac6a1055e2e453dbcdab08\jetified-fbcore-1.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\123\.gradle\caches\transforms-2\files-2.1\c2f3611111462ecce9b74cad72f0a240\soloader-0.5.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\123\.gradle\caches\transforms-2\files-2.1\c2f3611111462ecce9b74cad72f0a240\soloader-0.5.1\AndroidManifest.xml:7:5-9:41
+INJECTED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml
+INJECTED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml
+		INJECTED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml
+		ADDED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml
+		INJECTED from F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml
+activity#com.uuzuche.lib_zxing.activity.CaptureActivity
+ADDED from [cn.yipianfengye.android:zxing-library:2.2] C:\Users\123\.gradle\caches\transforms-2\files-2.1\68b181b389af65b7ed2e7d75f13785eb\jetified-zxing-library-2.2\AndroidManifest.xml:12:9-17:63
+	android:screenOrientation
+		ADDED from [cn.yipianfengye.android:zxing-library:2.2] C:\Users\123\.gradle\caches\transforms-2\files-2.1\68b181b389af65b7ed2e7d75f13785eb\jetified-zxing-library-2.2\AndroidManifest.xml:15:13-49
+	android:windowSoftInputMode
+		ADDED from [cn.yipianfengye.android:zxing-library:2.2] C:\Users\123\.gradle\caches\transforms-2\files-2.1\68b181b389af65b7ed2e7d75f13785eb\jetified-zxing-library-2.2\AndroidManifest.xml:17:13-60
+	android:configChanges
+		ADDED from [cn.yipianfengye.android:zxing-library:2.2] C:\Users\123\.gradle\caches\transforms-2\files-2.1\68b181b389af65b7ed2e7d75f13785eb\jetified-zxing-library-2.2\AndroidManifest.xml:14:13-63
+	android:theme
+		ADDED from [cn.yipianfengye.android:zxing-library:2.2] C:\Users\123\.gradle\caches\transforms-2\files-2.1\68b181b389af65b7ed2e7d75f13785eb\jetified-zxing-library-2.2\AndroidManifest.xml:16:13-63
+	android:name
+		ADDED from [cn.yipianfengye.android:zxing-library:2.2] C:\Users\123\.gradle\caches\transforms-2\files-2.1\68b181b389af65b7ed2e7d75f13785eb\jetified-zxing-library-2.2\AndroidManifest.xml:13:13-74
+supports-screens
+ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:11:5-16:39
+	android:largeScreens
+		ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:13:9-36
+	android:smallScreens
+		ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:16:9-36
+	android:normalScreens
+		ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:14:9-37
+	android:resizeable
+		ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:15:9-34
+	android:anyDensity
+		ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:12:9-34
+uses-library#org.apache.http.legacy
+ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:24:13-50
+activity#com.alipay.sdk.app.H5PayActivity
+ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:27:9-31:20
+	android:exported
+		ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:30:13-37
+	android:configChanges
+		ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:29:13-85
+	android:name
+		ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:28:13-60
+activity#com.alipay.sdk.app.H5AuthActivity
+ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:32:9-36:20
+	android:exported
+		ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:35:13-37
+	android:configChanges
+		ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:34:13-85
+	android:name
+		ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:33:13-61
+activity#com.alipay.sdk.app.PayResultActivity
+ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:37:9-46:20
+	android:launchMode
+		ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:41:13-48
+	android:exported
+		ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:40:13-36
+	android:configChanges
+		ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:39:13-85
+	android:theme
+		ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:42:13-72
+	android:name
+		ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:38:13-64
+intent-filter#category:name:android.intent.category.DEFAULT
+ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:43:13-45:29
+category#android.intent.category.DEFAULT
+ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:44:17-76
+	android:name
+		ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:44:27-73
+activity#com.alipay.sdk.app.AlipayResultActivity
+ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:47:9-52:20
+	android:launchMode
+		ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:50:13-44
+	android:exported
+		ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:49:13-36
+	android:theme
+		ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:51:13-72
+	android:name
+		ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:48:13-67
+activity#com.alipay.sdk.app.H5OpenAuthActivity
+ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:53:9-59:20
+	android:screenOrientation
+		ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:57:13-47
+	android:windowSoftInputMode
+		ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:58:13-67
+	android:exported
+		ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:56:13-37
+	android:configChanges
+		ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:55:13-85
+	android:name
+		ADDED from [:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:54:13-65

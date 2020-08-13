@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C2243"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rl_cinema"
+        >
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sdv_cinema_pic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:failureImage="@mipmap/failure"
+        app:failureImageScaleType="centerInside"
+        app:placeholderImage="@mipmap/tx"
+        app:progressBarAutoRotateInterval="5000"
+        app:progressBarImage="@mipmap/zzjz"
+        app:progressBarImageScaleType="centerInside"
+        app:retryImage="@mipmap/cshi"
+        app:retryImageScaleType="centerInside"
+        android:layout_marginLeft="20dp"
+        android:layout_centerVertical="true"
+        app:roundedCornerRadius="10dp"
+        />
+    <TextView
+        android:id="@+id/tv_cinema_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:text="电影名称"
+        android:layout_alignTop="@id/sdv_cinema_pic"
+        android:layout_toRightOf="@id/sdv_cinema_pic"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/tv_cinema_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:text="电影地址"
+        android:layout_below="@+id/tv_cinema_name"
+        android:layout_alignLeft="@id/tv_cinema_name"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/tv_cinema_juli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:text="1.8km"
+        android:layout_below="@id/tv_cinema_add"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        />
+
+        <ImageView
+            android:id="@+id/iv_seekcinema_off"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/off"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/tv_cinema_name"
+            android:visibility="gone"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

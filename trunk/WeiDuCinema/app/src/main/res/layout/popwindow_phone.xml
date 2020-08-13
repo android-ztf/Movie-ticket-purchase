@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:padding="20dp"
+    >
+
+    <EditText
+        android:id="@+id/et_phone_my"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="phone"
+        android:background="@drawable/edittext"
+        android:backgroundTint="@color/white"
+        android:hint="请输入手机号"
+        android:paddingLeft="10dp"
+        />
+    <Button
+        android:id="@+id/but_xiu_my"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/et_phone_my"
+        android:background="@drawable/edittext"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_marginTop="10dp"
+        android:text="修改"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+
+
+</RelativeLayout>

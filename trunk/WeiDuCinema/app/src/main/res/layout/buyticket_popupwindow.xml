@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <TextView
+        android:id="@+id/zf_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择支付方式"
+        android:layout_marginLeft="40dp"
+        android:textSize="20sp"
+        />
+
+   <RadioGroup
+       android:id="@+id/rg_pw_ticket"
+       android:layout_width="match_parent"
+       android:layout_height="100dp"
+       android:orientation="vertical"
+       android:layout_below="@id/zf_tv"
+       android:layout_marginTop="20dp"
+       >
+       <RadioButton
+           android:id="@+id/rb_wx_pw"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="1"
+           android:text="\t\t微信支付"
+           android:drawableRight="@drawable/check_zf"
+           android:drawableLeft="@mipmap/wx_lable"
+           android:paddingHorizontal="40dp"
+           android:button="@null"
+           />
+       <RadioButton
+           android:id="@+id/rb_zfb_pw"
+           android:layout_marginTop="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="1"
+           android:text="\t\t支付宝支付"
+           android:drawableRight="@drawable/check_zf"
+           android:drawableLeft="@mipmap/zfb_label"
+           android:paddingHorizontal="40dp"
+           android:button="@null"
+           />
+   </RadioGroup>
+    <Button
+        android:id="@+id/but_paymoney"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/rg_pw_ticket"
+        android:background="@drawable/edittext"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:backgroundTint="@color/colorAccent"
+        />
+
+</RelativeLayout>

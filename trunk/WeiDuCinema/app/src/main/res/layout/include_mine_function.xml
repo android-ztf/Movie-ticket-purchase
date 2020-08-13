@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#1C2243"
+    android:orientation="horizontal"
+    >
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+        <Button
+            android:id="@+id/but_mine_gz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/mine_star"
+            style="?android:attr/borderlessButtonStyle"
+            android:text="我的关注"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            />
+        <Button
+            android:id="@+id/but_mine_oldmovie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/mine_dui"
+            style="?android:attr/borderlessButtonStyle"
+            android:text="看过的电影"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/but_mine_gz"
+            />
+        <Button
+            android:id="@+id/but_mine_sz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/mine_sz"
+            style="?android:attr/borderlessButtonStyle"
+            android:text="设置"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginVertical="20dp"
+            android:layout_below="@+id/but_mine_oldmovie"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+
+        <Button
+            android:id="@+id/but_mine_yuyu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/mine_time"
+            style="?android:attr/borderlessButtonStyle"
+            android:text="我的预约"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            />
+        <Button
+            android:id="@+id/but_mine_pl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/mine_plun"
+            style="?android:attr/borderlessButtonStyle"
+            android:text="我的评论"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/but_mine_yuyu"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+
+        <Button
+        android:id="@+id/but_mine_gopiao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@mipmap/mine_piao"
+        style="?android:attr/borderlessButtonStyle"
+        android:text="购票记录"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+            />
+        <Button
+            android:id="@+id/but_mine_yjian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/mine_yjian"
+            style="?android:attr/borderlessButtonStyle"
+            android:text="意见反馈"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/but_mine_gopiao"
+            />
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

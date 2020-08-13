@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#1C2243"
+    >
+
+    <RelativeLayout
+        android:id="@+id/rl_more"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="20dp">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/sdv_pic_seekmovie"
+            android:layout_width="120dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            app:failureImage="@mipmap/ic_launcher"
+            app:placeholderImage="@mipmap/ic_launcher"
+            app:roundedCornerRadius="10dp" />
+
+        <TextView
+            android:id="@+id/tv_seekmovie_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/sdv_pic_seekmovie"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/sdv_pic_seekmovie"
+            android:text="电影姓名"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_seekmovie_daoyan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_seekmovie_name"
+            android:layout_alignLeft="@id/tv_seekmovie_name"
+            android:layout_marginTop="10dp"
+            android:text="导演"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_seekmovie_zhuyan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_seekmovie_daoyan"
+            android:layout_alignLeft="@id/tv_seekmovie_daoyan"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:lines="1"
+            android:maxEms="10"
+            android:maxLines="1"
+            android:text="主演"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_seekmovie_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_seekmovie_zhuyan"
+            android:layout_alignLeft="@id/tv_seekmovie_zhuyan"
+            android:layout_marginTop="10dp"
+            android:text="评分"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/but_seekmovie_gpiao"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@+id/tv_seekmovie_score"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/edittext"
+            android:backgroundTint="@color/colorAccent"
+            android:gravity="center"
+            android:text="购票"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/iv_seekmovie_off"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignTop="@id/tv_seekmovie_name"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/off"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/but_seecomment"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@id/tv_seekmovie_name"
+            android:background="@drawable/edittext"
+            android:backgroundTint="@color/colorAccent"
+            android:gravity="center"
+            android:text="查看评论"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:layout_alignBottom="@id/sdv_pic_seekmovie"
+            android:visibility="gone"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

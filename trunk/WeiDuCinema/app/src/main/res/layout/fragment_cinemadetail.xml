@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141931"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/dinwei_iv"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/dinwei"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/tv_location_cinemadtail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/dinwei_iv"
+        android:layout_toRightOf="@id/dinwei_iv"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical"
+        android:text="哎呀找不到地址了"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:maxLines="2"
+
+        />
+    <ImageView
+        android:id="@+id/dianhua_iv"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/dianhua"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/dinwei_iv"
+        />
+    <TextView
+        android:id="@+id/tv_tel_cinemadtail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignTop="@id/dianhua_iv"
+        android:layout_toRightOf="@id/dianhua_iv"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical"
+        android:text="失去联系了呢"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/vehicleroute_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="乘车路线"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_below="@+id/dianhua_iv"
+        android:layout_alignLeft="@+id/dianhua_iv"
+        android:layout_marginTop="40dp"
+        />
+    <TextView
+        android:id="@+id/tv_vehicleroute_cinemadatil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:gravity="center_vertical"
+        android:text="555~迷路了"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_below="@+id/vehicleroute_tv"
+        android:layout_marginTop="30dp"
+        />
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/srl_mine"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/my_bg"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:id="@+id/l2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我的"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        />
+
+    <Button
+        android:id="@+id/but_xinxi"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:background="@mipmap/xinxi"
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@id/l2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_unread_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="11"
+        android:textStyle="bold"
+        android:background="@drawable/edittext"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_alignLeft="@id/but_xinxi"
+        android:layout_marginLeft="30dp"
+        android:layout_above="@id/but_xinxi"
+        android:visibility="gone"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/but_xinxi"
+        android:layout_marginTop="40dp"
+        android:paddingHorizontal="20dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/edittext"
+            android:id="@+id/wd_rl"
+            android:backgroundTint="#ffffff"
+            >
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/sdv_mine_pic"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                app:failureImage="@mipmap/failure"
+                app:failureImageScaleType="centerInside"
+                app:placeholderImage="@mipmap/tx"
+                app:progressBarAutoRotateInterval="5000"
+                app:progressBarImage="@mipmap/zzjz"
+                app:progressBarImageScaleType="centerInside"
+                app:retryImage="@mipmap/cshi"
+                app:retryImageScaleType="centerInside"
+                app:roundAsCircle="true"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                />
+            <TextView
+                android:id="@+id/tv_mine_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="用户名称"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/sdv_mine_pic"
+                />
+            <Button
+                android:id="@+id/but_mine_more"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@mipmap/sf"
+                android:layout_marginLeft="60dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/dyp_rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:background="#1C2243"
+            android:layout_below="@+id/wd_rl"
+            >
+
+            <TextView
+                android:id="@+id/tv_dyp"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@mipmap/dyp"
+                android:text="电影票"
+                android:textSize="15sp"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                />
+            <Button
+                android:id="@+id/but_dyp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@mipmap/dyp_jian"
+                android:layout_marginLeft="60dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                />
+        </RelativeLayout>
+        <ScrollView
+            android:id="@+id/sv_mine"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/dyp_rl"
+            >
+
+            <include layout="@layout/include_mine_function"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dyp_rl"
+                />
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+        </RelativeLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+</RelativeLayout>

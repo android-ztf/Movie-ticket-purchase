@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/utem_bg"
+    android:id="@+id/rl_notrecord">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sdv_not_record"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        app:failureImage="@mipmap/failure"
+        app:failureImageScaleType="centerInside"
+        app:placeholderImage="@mipmap/zzjz"
+        app:progressBarAutoRotateInterval="5000"
+        app:retryImage="@mipmap/cshi"
+        app:retryImageScaleType="centerInside"
+        app:roundedCornerRadius="10dp"
+        />
+    <TextView
+        android:id="@+id/tv_name_notrecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="电影名称"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_alignTop="@id/sdv_not_record"
+        android:layout_toRightOf="@id/sdv_not_record"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/tv_order_notrecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="订单号"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_alignLeft="@id/tv_name_notrecord"
+        android:layout_below="@id/tv_name_notrecord"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_time_notrecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="创建时间"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_alignLeft="@id/tv_name_notrecord"
+        android:layout_below="@id/tv_order_notrecord"
+        android:layout_marginTop="15dp"
+        />
+    <TextView
+        android:id="@+id/tv_detail_notrecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查看详情>>"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_alignLeft="@id/tv_name_notrecord"
+        android:layout_below="@id/tv_time_notrecord"
+        android:layout_marginTop="15dp"
+        />
+    <Button
+        android:id="@+id/but_buy_notrecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="立即付款"
+        android:textColor="@color/white"
+        android:layout_alignBottom="@id/sdv_not_record"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/edittext"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_marginRight="20dp"
+        />
+
+    </RelativeLayout>
+
+</RelativeLayout>

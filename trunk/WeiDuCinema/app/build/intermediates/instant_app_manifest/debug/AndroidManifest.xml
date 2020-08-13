@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bw.movie"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 这个权限用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- 这个权限用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 获取运营商信息，用于支持提供运营商信息相关的接口 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /> <!-- 用于读取手机当前的状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:name="com.bw.movie.application.App"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/cinema"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity android:name="com.bw.movie.view.activity.mine.SysMsgAllActivity" />
+        <activity
+            android:name="com.bw.movie.view.activity.mine.MineInfoActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity android:name="com.bw.movie.view.activity.mine.MineTicketActivity" />
+        <activity android:name="com.bw.movie.view.activity.mine.RecordDetailActivity" />
+        <activity android:name="com.bw.movie.view.activity.mine.MineTicketRecordActivity" />
+        <activity android:name="com.bw.movie.view.activity.mine.NewVersionActivity" />
+        <activity android:name="com.bw.movie.view.activity.mine.UserSetActivity" />
+        <activity
+            android:name="com.bw.movie.wxapi.WXPayEntryActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.bw.movie.wxapi.WXEntryActivity"
+            android:exported="true" />
+        <activity android:name="com.bw.movie.view.activity.mine.MineCommentActivity" />
+        <activity android:name="com.bw.movie.view.activity.mine.UserSeenActivity" />
+        <activity android:name="com.bw.movie.view.activity.mine.FeedBackActivity" />
+        <activity android:name="com.bw.movie.view.activity.mine.MineReserveActivity" />
+        <activity android:name="com.bw.movie.view.activity.mine.MineFollowActivity" />
+        <activity android:name="com.bw.movie.view.activity.CommentDetailActivity" />
+        <activity android:name="com.bw.movie.view.activity.WriteCommentActivity" />
+        <activity android:name="com.bw.movie.view.activity.BuyTicketActivity" />
+        <activity android:name="com.bw.movie.view.activity.SelectCinemaActivity" />
+        <activity android:name="com.bw.movie.view.activity.CinemaMovieListActivity" />
+        <activity android:name="com.bw.movie.view.activity.CinemaInfoActivity" />
+        <activity android:name="com.bw.movie.view.activity.DetailMovieActivity" />
+        <activity android:name="com.bw.movie.view.activity.ForgetPwdActivity" />
+        <activity android:name="com.bw.movie.view.activity.MoreActivity" />
+        <activity android:name="com.bw.movie.view.activity.SeekActivity" />
+        <activity android:name="com.bw.movie.view.activity.NotNetActivity" />
+        <activity android:name="com.bw.movie.view.activity.WelcomeActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bw.movie.view.activity.HomeActivity"
+            android:launchMode="singleTask" />
+        <activity android:name="com.bw.movie.view.activity.RegisterActivity" />
+        <activity android:name="com.bw.movie.view.activity.LoginActivity" />
+
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="a5dfae1541555ee67b766d396f8e062b" />
+
+        <service android:name="com.amap.api.location.APSService" />
+
+        <receiver android:name="com.bw.movie.receive.InstallReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 腾讯信鸽 -->
+        <!-- <receiver -->
+        <!-- android:name="com.tencent.android.tpush.XGPushReceiver" -->
+        <!-- android:process=":xg_service_v4" > -->
+        <!-- <intent-filter android:priority="0x7fffffff" > -->
+
+
+        <!-- &lt;!&ndash; 【必须】 信鸽SDK的内部广播 &ndash;&gt; -->
+        <!-- <action android:name="com.tencent.android.tpush.action.SDK" /> -->
+        <!-- android:name="com.tencent.android.tpush.action.INTERNAL_PUSH_MESSAGE" /> -->
+        <!-- &lt;!&ndash; 【必须】 系统广播：网络切换 &ndash;&gt; -->
+        <!-- <action android:name="android.net.conn.CONNECTIVITY_CHANGE" /> -->
+
+
+        <!-- &lt;!&ndash; 【可选】 系统广播：开屏 &ndash;&gt; -->
+        <!-- <action android:name="android.intent.action.USER_PRESENT" /> -->
+
+
+        <!-- &lt;!&ndash; 【可选】 一些常用的系统广播，增强信鸽service的复活机会，请根据需要选择。当然，你也可以添加APP自定义的一些广播让启动service &ndash;&gt; -->
+        <!-- <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" /> -->
+        <!-- <action android:name="android.intent.action.ACTION_POWER_CONNECTED" /> -->
+        <!-- <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" /> -->
+        <!-- </intent-filter> -->
+        <!-- &lt;!&ndash; 【可选】 usb相关的系统广播，增强信鸽service的复活机会，请根据需要添加 &ndash;&gt; -->
+        <!-- <intent-filter android:priority="0x7fffffff" > -->
+        <!-- <action android:name="android.intent.action.MEDIA_UNMOUNTED" /> -->
+        <!-- <action android:name="android.intent.action.MEDIA_REMOVED" /> -->
+        <!-- <action android:name="android.intent.action.MEDIA_CHECKING" /> -->
+        <!-- <action android:name="android.intent.action.MEDIA_EJECT" /> -->
+
+
+        <!-- <data android:scheme="file" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+
+        <activity
+            android:name="com.uuzuche.lib_zxing.activity.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.app.H5AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.app.PayResultActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="true"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.app.AlipayResultActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.app.H5OpenAuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+        </activity>
+    </application>
+
+</manifest>

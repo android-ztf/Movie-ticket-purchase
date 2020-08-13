@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.BuyTicketActivity"
+    android:background="@mipmap/v2_pjcyk1"
+    >
+
+    <Button
+        android:id="@+id/but_back_ticket"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@mipmap/jian"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        />
+    <TextView
+        android:id="@+id/tv_name_ticket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_centerHorizontal="true"
+        android:text="电影名称"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_name_ticket"
+        android:layout_marginTop="20dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <fm.jiecao.jcvideoplayer_lib.JCVideoPlayerStandard
+                android:id="@+id/jcvps_ygp_ticket"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_300"
+                android:layout_marginHorizontal="20dp"
+                />
+
+            <com.bw.movie.view.customview.SeatView
+                android:id="@+id/seatview"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@id/jcvps_ygp_ticket"
+                android:layout_marginTop="21dp"
+                android:layout_marginHorizontal="20dp"
+                android:background="#00000000"
+                />
+
+            <TextView
+                android:id="@+id/baiyuan_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/white_yuan"
+                android:layout_below="@id/seatview"
+                android:text="可选"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:gravity="right"
+                android:layout_alignLeft="@id/seatview"
+                />
+            <TextView
+                android:id="@+id/huangyuan_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/yellow_yuan"
+                android:layout_below="@id/seatview"
+                android:text="已售"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:gravity="right"
+                android:layout_centerHorizontal="true"
+                />
+            <TextView
+                android:id="@+id/redyuan_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/red_yuan"
+                android:layout_below="@id/seatview"
+                android:text="可选"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:gravity="right"
+                android:layout_alignRight="@id/seatview"
+                />
+
+            <TextView
+                android:id="@+id/tv_halltime_xx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选择影厅和时间(6)"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:layout_below="@id/redyuan_tv"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_hall_ticket"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/tv_halltime_xx"
+                android:layout_marginTop="20dp"
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/but_buy_ticket"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/pink"
+        android:text="请先选坐"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:enabled="false"
+        />
+
+</RelativeLayout>

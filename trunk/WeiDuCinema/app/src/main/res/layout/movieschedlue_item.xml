@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/utem_bg"
+    android:id="@+id/rl_movieschedlue"
+    >
+
+    <RelativeLayout
+        android:layout_width="270dp"
+        android:layout_height="100dp">
+
+
+    <CheckBox
+        android:id="@+id/cb_selecehall"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/select_hall"
+        android:button="@null"
+        />
+
+    <TextView
+        android:id="@+id/tv_hallname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="影厅名称"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        android:layout_below="@id/cb_selecehall"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/tv_begintime"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="开始时间"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_toLeftOf="@id/hx_tv"
+        android:layout_marginRight="10dp"
+        android:layout_centerInParent="true"
+        />
+    <TextView
+        android:id="@+id/hx_tv"
+        android:layout_width="20dp"
+        android:layout_height="2dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_centerInParent="true"
+        />
+    <TextView
+        android:id="@+id/tv_endtime"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="结束时间"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_toRightOf="@id/hx_tv"
+        android:layout_marginLeft="10dp"
+        android:layout_centerInParent="true"
+        />
+    <TextView
+        android:id="@+id/tv_hallprice"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="价格"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp"
+        android:gravity="left"
+        android:layout_alignLeft="@id/tv_hallname"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentBottom="true"
+        />
+
+    </RelativeLayout>
+</RelativeLayout>

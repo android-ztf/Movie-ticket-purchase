@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\study\\Android\\AndriodCode\\Android_6\\WeiDuCinema\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-zh\\values-zh.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\123\\.gradle\\caches\\transforms-2\\files-2.1\\7cf892b08fa5d3f895f43a6510dcd1e5\\jetified-jiecaovideoplayer-5.5\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,97,161,215",
+                        "endColumns": "41,63,53,54",
+                        "endOffsets": "92,156,210,265"
+                    },
+                    "to": {
+                        "startLines": "7,14,15,16",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "341,716,780,834",
+                        "endColumns": "41,63,53,54",
+                        "endOffsets": "378,775,829,884"
+                    }
+                },
+                {
+                    "source": "F:\\study\\Android\\AndriodCode\\Android_6\\WeiDuCinema\\pulltorefresh\\build\\intermediates\\packaged_res\\release\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,116,183",
+                        "endColumns": "60,66,64",
+                        "endOffsets": "111,178,243"
+                    },
+                    "to": {
+                        "startLines": "9,10,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "430,491,558",
+                        "endColumns": "60,66,64",
+                        "endOffsets": "486,553,618"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\123\\.gradle\\caches\\transforms-2\\files-2.1\\045c16d6a8d2cc2feeca169beb2b25e7\\jetified-xrecyclerview-1.5.9\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,116,180,242,295,341,388,434",
+                        "endColumns": "60,63,61,52,45,46,45,46",
+                        "endOffsets": "111,175,237,290,336,383,429,476"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,8,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,116,180,242,295,383,623,669",
+                        "endColumns": "60,63,61,52,45,46,45,46",
+                        "endOffsets": "111,175,237,290,336,425,664,711"
+                    }
+                }
+            ]
+        }
+    ]
+}

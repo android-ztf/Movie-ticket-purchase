@@ -1,0 +1,4 @@
+# Referenced at F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:29
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:29
+-keep class com.bw.movie.application.App { <init>(); }
