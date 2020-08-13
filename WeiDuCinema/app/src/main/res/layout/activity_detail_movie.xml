@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fresco="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.DetailMovieActivity"
+    android:orientation="vertical"
+    android:background="#141931"
+
+    >
+
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sdv_detail_pic"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_370"
+        app:failureImage="@mipmap/failure"
+        app:placeholderImage="@mipmap/tx"
+        app:progressBarImage="@mipmap/zzjz"
+        app:retryImage="@mipmap/cshi"
+        android:layout_marginVertical="20dp"
+        />
+
+        <Button
+            android:id="@+id/but_back_loign"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@mipmap/jian"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            />
+            <TextView
+                android:id="@+id/tv_detail_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="评分   9.8分"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:layout_marginLeft="40dp"
+                android:layout_alignTop="@+id/cb_detail_guanzhu"
+                />
+            <TextView
+                android:id="@+id/tv_detail_com_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="评论   18.2万条"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:layout_marginLeft="40dp"
+                android:layout_alignTop="@id/tv_detail_score"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="40dp"
+                />
+            <TextView
+                android:id="@+id/tv_detail_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="电影名称"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@id/tv_detail_score"
+                android:layout_marginTop="40dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_detail_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="暂无电影类型"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@id/tv_detail_name"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:id="@+id/tv_detail_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="电影时长"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@id/tv_detail_name"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/tv_detail_type"
+                />
+            <TextView
+                android:id="@+id/tv_detail_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2020-07-12"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@id/tv_detail_time"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:id="@+id/tv_detail_place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="中国大陆"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@id/tv_detail_time"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/tv_detail_date"
+                />
+
+    <SlidingDrawer
+        android:id="@+id/SlidingDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="60dp"
+        android:content="@id/myView"
+        android:handle="@id/layout1"
+        android:orientation="vertical"
+
+        >
+        <!--设置引导按钮-->
+        <RelativeLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_80"
+            >
+
+            <TextView
+                android:id="@+id/tv_detail_name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="电影名称"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/Image"
+                android:visibility="gone"
+                />
+
+            <ImageView
+                android:id="@+id/Image"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/shape_up"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="65dp"
+                />
+
+        </RelativeLayout>
+
+        <!--设置抽屉内容-->
+        <RelativeLayout
+            android:id="@+id/myView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="70dp"
+            android:background="#141931"
+            >
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tl_detai_xx"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/utem_bg"
+                app:tabTextColor="@color/white"
+                app:tabIndicatorColor="@color/colorAccent"
+                />
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/vp_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tl_detai_xx"
+                android:layout_marginTop="20dp"
+
+                />
+
+        </RelativeLayout>
+
+    </SlidingDrawer>
+
+    <CheckBox
+        android:id="@+id/cb_detail_guanzhu"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:drawableTop="@drawable/detail_guanzhu"
+        android:button="@null"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/sdv_detail_pic"
+        android:text="未关注"
+        android:gravity="center_horizontal|bottom"
+        android:textColor="@color/white"
+        android:background="#141931"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="1"
+        >
+        <Button
+            android:id="@+id/but_writeMovieComment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@color/D3AF56"
+            android:gravity="center"
+            android:text="写影评"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/but_buyMovieTickets"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:text="选坐购票"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
+

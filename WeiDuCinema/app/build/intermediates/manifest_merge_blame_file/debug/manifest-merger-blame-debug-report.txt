@@ -1,0 +1,329 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bw.movie"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:6:5-67
+11-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 这个权限用于进行网络定位 -->
+12-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:7:5-79
+12-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- 这个权限用于访问GPS定位 -->
+13-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:8:5-81
+13-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:8:22-78
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+14-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:9:5-79
+14-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:9:22-76
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 获取运营商信息，用于支持提供运营商信息相关的接口 -->
+15-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:10:5-76
+15-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:10:22-73
+16    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /> <!-- 用于读取手机当前的状态 -->
+16-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:11:5-76
+16-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:11:22-73
+17    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据 -->
+17-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:12:5-75
+17-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:12:22-72
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:13:5-81
+18-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:13:22-78
+19    <uses-permission android:name="android.permission.CAMERA" />
+19-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:14:5-65
+19-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:14:22-62
+20    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+20-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:15:5-82
+20-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:15:22-80
+21
+22    <supports-screens
+22-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:11:5-16:39
+23        android:anyDensity="true"
+23-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:12:9-34
+24        android:largeScreens="true"
+24-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:13:9-36
+25        android:normalScreens="true"
+25-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:14:9-37
+26        android:resizeable="true"
+26-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:15:9-34
+27        android:smallScreens="true" />
+27-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:16:9-36
+28
+29    <application
+29-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:18:5-117:19
+30        android:name="com.bw.movie.application.App"
+30-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:19:9-40
+31        android:allowBackup="true"
+31-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:20:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.1.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\588cc011fdf6b725f6b21553cda9a462\core-1.1.0\AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:icon="@mipmap/cinema"
+34-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:21:9-38
+35        android:label="@string/app_name"
+35-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:22:9-41
+36        android:networkSecurityConfig="@xml/network_security_config"
+36-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:25:9-69
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:23:9-54
+38        android:supportsRtl="true"
+38-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:24:9-35
+39        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+39-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:26:9-65
+40        <activity android:name="com.bw.movie.view.activity.mine.SysMsgAllActivity" />
+40-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:27:9-83
+40-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:27:19-71
+41        <activity
+41-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:28:9-30:70
+42            android:name="com.bw.movie.view.activity.mine.MineInfoActivity"
+42-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:29:13-64
+43            android:windowSoftInputMode="adjustResize|stateHidden" />
+43-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:30:13-67
+44        <activity android:name="com.bw.movie.view.activity.mine.MineTicketActivity" />
+44-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:31:9-75
+44-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:31:19-72
+45        <activity android:name="com.bw.movie.view.activity.mine.RecordDetailActivity" />
+45-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:32:9-77
+45-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:32:19-74
+46        <activity android:name="com.bw.movie.view.activity.mine.MineTicketRecordActivity" />
+46-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:33:9-81
+46-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:33:19-78
+47        <activity android:name="com.bw.movie.view.activity.mine.NewVersionActivity" />
+47-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:34:9-75
+47-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:34:19-72
+48        <activity android:name="com.bw.movie.view.activity.mine.UserSetActivity" />
+48-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:35:9-72
+48-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:35:19-69
+49        <activity
+49-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:36:9-38:39
+50            android:name="com.bw.movie.wxapi.WXPayEntryActivity"
+50-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:37:13-53
+51            android:exported="true" />
+51-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:38:13-36
+52        <activity
+52-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:39:9-41:39
+53            android:name="com.bw.movie.wxapi.WXEntryActivity"
+53-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:40:13-50
+54            android:exported="true" />
+54-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:41:13-36
+55        <activity android:name="com.bw.movie.view.activity.mine.MineCommentActivity" />
+55-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:42:9-76
+55-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:42:19-73
+56        <activity android:name="com.bw.movie.view.activity.mine.UserSeenActivity" />
+56-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:43:9-73
+56-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:43:19-70
+57        <activity android:name="com.bw.movie.view.activity.mine.FeedBackActivity" />
+57-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:44:9-73
+57-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:44:19-70
+58        <activity android:name="com.bw.movie.view.activity.mine.MineReserveActivity" />
+58-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:45:9-76
+58-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:45:19-73
+59        <activity android:name="com.bw.movie.view.activity.mine.MineFollowActivity" />
+59-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:46:9-75
+59-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:46:19-72
+60        <activity android:name="com.bw.movie.view.activity.CommentDetailActivity" />
+60-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:47:9-73
+60-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:47:19-70
+61        <activity android:name="com.bw.movie.view.activity.WriteCommentActivity" />
+61-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:48:9-72
+61-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:48:19-69
+62        <activity android:name="com.bw.movie.view.activity.BuyTicketActivity" />
+62-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:49:9-69
+62-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:49:19-66
+63        <activity android:name="com.bw.movie.view.activity.SelectCinemaActivity" />
+63-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:50:9-72
+63-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:50:19-69
+64        <activity android:name="com.bw.movie.view.activity.CinemaMovieListActivity" />
+64-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:51:9-75
+64-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:51:19-72
+65        <activity android:name="com.bw.movie.view.activity.CinemaInfoActivity" />
+65-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:52:9-70
+65-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:52:19-67
+66        <activity android:name="com.bw.movie.view.activity.DetailMovieActivity" />
+66-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:53:9-71
+66-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:53:19-68
+67        <activity android:name="com.bw.movie.view.activity.ForgetPwdActivity" />
+67-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:54:9-69
+67-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:54:19-66
+68        <activity android:name="com.bw.movie.view.activity.MoreActivity" />
+68-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:55:9-64
+68-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:55:19-61
+69        <activity android:name="com.bw.movie.view.activity.SeekActivity" />
+69-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:56:9-64
+69-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:56:19-61
+70        <activity android:name="com.bw.movie.view.activity.NotNetActivity" />
+70-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:57:9-66
+70-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:57:19-63
+71        <activity android:name="com.bw.movie.view.activity.WelcomeActivity" >
+71-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:58:9-64:20
+71-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:58:19-64
+72            <intent-filter>
+72-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:59:13-63:29
+73                <action android:name="android.intent.action.MAIN" />
+73-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:60:17-69
+73-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:60:25-66
+74
+75                <category android:name="android.intent.category.LAUNCHER" />
+75-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:62:17-77
+75-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:62:27-74
+76            </intent-filter>
+77        </activity>
+78        <activity
+78-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:65:9-67:47
+79            android:name="com.bw.movie.view.activity.HomeActivity"
+79-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:66:13-55
+80            android:launchMode="singleTask" />
+80-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:67:13-44
+81        <activity android:name="com.bw.movie.view.activity.RegisterActivity" />
+81-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:68:9-68
+81-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:68:19-65
+82        <activity android:name="com.bw.movie.view.activity.LoginActivity" />
+82-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:69:9-65
+82-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:69:19-62
+83
+84        <meta-data
+84-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:71:9-73:64
+85            android:name="com.amap.api.v2.apikey"
+85-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:72:13-50
+86            android:value="a5dfae1541555ee67b766d396f8e062b" />
+86-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:73:13-61
+87
+88        <service android:name="com.amap.api.location.APSService" />
+88-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:75:9-68
+88-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:75:18-65
+89
+90        <receiver android:name="com.bw.movie.receive.InstallReceiver" >
+90-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:77:9-81:20
+90-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:77:19-58
+91            <intent-filter>
+91-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:78:13-80:29
+92                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+92-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:79:17-82
+92-->F:\study\Android\AndriodCode\Android_6\WeiDuCinema\app\src\main\AndroidManifest.xml:79:25-79
+93            </intent-filter>
+94        </receiver>
+95
+96        <!-- 腾讯信鸽 -->
+97        <!-- <receiver -->
+98        <!-- android:name="com.tencent.android.tpush.XGPushReceiver" -->
+99        <!-- android:process=":xg_service_v4" > -->
+100        <!-- <intent-filter android:priority="0x7fffffff" > -->
+101
+102
+103        <!-- &lt;!&ndash; 【必须】 信鸽SDK的内部广播 &ndash;&gt; -->
+104        <!-- <action android:name="com.tencent.android.tpush.action.SDK" /> -->
+105        <!-- android:name="com.tencent.android.tpush.action.INTERNAL_PUSH_MESSAGE" /> -->
+106        <!-- &lt;!&ndash; 【必须】 系统广播：网络切换 &ndash;&gt; -->
+107        <!-- <action android:name="android.net.conn.CONNECTIVITY_CHANGE" /> -->
+108
+109
+110        <!-- &lt;!&ndash; 【可选】 系统广播：开屏 &ndash;&gt; -->
+111        <!-- <action android:name="android.intent.action.USER_PRESENT" /> -->
+112
+113
+114        <!-- &lt;!&ndash; 【可选】 一些常用的系统广播，增强信鸽service的复活机会，请根据需要选择。当然，你也可以添加APP自定义的一些广播让启动service &ndash;&gt; -->
+115        <!-- <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" /> -->
+116        <!-- <action android:name="android.intent.action.ACTION_POWER_CONNECTED" /> -->
+117        <!-- <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" /> -->
+118        <!-- </intent-filter> -->
+119        <!-- &lt;!&ndash; 【可选】 usb相关的系统广播，增强信鸽service的复活机会，请根据需要添加 &ndash;&gt; -->
+120        <!-- <intent-filter android:priority="0x7fffffff" > -->
+121        <!-- <action android:name="android.intent.action.MEDIA_UNMOUNTED" /> -->
+122        <!-- <action android:name="android.intent.action.MEDIA_REMOVED" /> -->
+123        <!-- <action android:name="android.intent.action.MEDIA_CHECKING" /> -->
+124        <!-- <action android:name="android.intent.action.MEDIA_EJECT" /> -->
+125
+126
+127        <!-- <data android:scheme="file" /> -->
+128        <!-- </intent-filter> -->
+129        <!-- </receiver> -->
+130
+131        <activity
+131-->[cn.yipianfengye.android:zxing-library:2.2] C:\Users\123\.gradle\caches\transforms-2\files-2.1\68b181b389af65b7ed2e7d75f13785eb\jetified-zxing-library-2.2\AndroidManifest.xml:12:9-17:63
+132            android:name="com.uuzuche.lib_zxing.activity.CaptureActivity"
+132-->[cn.yipianfengye.android:zxing-library:2.2] C:\Users\123\.gradle\caches\transforms-2\files-2.1\68b181b389af65b7ed2e7d75f13785eb\jetified-zxing-library-2.2\AndroidManifest.xml:13:13-74
+133            android:configChanges="orientation|keyboardHidden"
+133-->[cn.yipianfengye.android:zxing-library:2.2] C:\Users\123\.gradle\caches\transforms-2\files-2.1\68b181b389af65b7ed2e7d75f13785eb\jetified-zxing-library-2.2\AndroidManifest.xml:14:13-63
+134            android:screenOrientation="portrait"
+134-->[cn.yipianfengye.android:zxing-library:2.2] C:\Users\123\.gradle\caches\transforms-2\files-2.1\68b181b389af65b7ed2e7d75f13785eb\jetified-zxing-library-2.2\AndroidManifest.xml:15:13-49
+135            android:theme="@style/Theme.AppCompat.NoActionBar"
+135-->[cn.yipianfengye.android:zxing-library:2.2] C:\Users\123\.gradle\caches\transforms-2\files-2.1\68b181b389af65b7ed2e7d75f13785eb\jetified-zxing-library-2.2\AndroidManifest.xml:16:13-63
+136            android:windowSoftInputMode="stateAlwaysHidden" />
+136-->[cn.yipianfengye.android:zxing-library:2.2] C:\Users\123\.gradle\caches\transforms-2\files-2.1\68b181b389af65b7ed2e7d75f13785eb\jetified-zxing-library-2.2\AndroidManifest.xml:17:13-60
+137
+138        <uses-library
+138-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:23:9-25:40
+139            android:name="org.apache.http.legacy"
+139-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:24:13-50
+140            android:required="false" />
+140-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:25:13-37
+141
+142        <activity
+142-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:27:9-31:20
+143            android:name="com.alipay.sdk.app.H5PayActivity"
+143-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:28:13-60
+144            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+144-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:29:13-85
+145            android:exported="false" >
+145-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:30:13-37
+146        </activity>
+147        <activity
+147-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:32:9-36:20
+148            android:name="com.alipay.sdk.app.H5AuthActivity"
+148-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:33:13-61
+149            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+149-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:34:13-85
+150            android:exported="false" >
+150-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:35:13-37
+151        </activity>
+152        <activity
+152-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:37:9-46:20
+153            android:name="com.alipay.sdk.app.PayResultActivity"
+153-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:38:13-64
+154            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+154-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:39:13-85
+155            android:exported="true"
+155-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:40:13-36
+156            android:launchMode="singleInstance"
+156-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:41:13-48
+157            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+157-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:42:13-72
+158            <intent-filter>
+158-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:43:13-45:29
+159                <category android:name="android.intent.category.DEFAULT" />
+159-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:44:17-76
+159-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:44:27-73
+160            </intent-filter>
+161        </activity>
+162        <activity
+162-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:47:9-52:20
+163            android:name="com.alipay.sdk.app.AlipayResultActivity"
+163-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:48:13-67
+164            android:exported="true"
+164-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:49:13-36
+165            android:launchMode="singleTask"
+165-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:50:13-44
+166            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+166-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:51:13-72
+167        </activity>
+168        <activity
+168-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:53:9-59:20
+169            android:name="com.alipay.sdk.app.H5OpenAuthActivity"
+169-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:54:13-65
+170            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+170-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:55:13-85
+171            android:exported="false"
+171-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:56:13-37
+172            android:screenOrientation="behind"
+172-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:57:13-47
+173            android:windowSoftInputMode="adjustResize|stateHidden" >
+173-->[:alipaySdk-15.7.9-20200727142846:] C:\Users\123\.gradle\caches\transforms-2\files-2.1\4b514c00449def56092b53389cba69f7\jetified-alipaySdk-15.7.9-20200727142846\AndroidManifest.xml:58:13-67
+174        </activity>
+175    </application>
+176
+177</manifest>

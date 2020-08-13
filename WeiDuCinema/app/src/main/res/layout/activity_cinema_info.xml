@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.CinemaInfoActivity"
+    android:background="#141931"
+    >
+
+    <TextView
+        android:id="@+id/l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="影院详情"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        />
+    <Button
+        android:id="@+id/but_back_cinemainfo"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@mipmap/jian"
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@id/l"
+        />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/but_back_cinemainfo"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="70dp"
+            >
+
+            <TextView
+                android:id="@+id/tv_cinfo_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="电影名称"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp"
+                />
+            <CheckBox
+                android:id="@+id/cb_cinfo_guanzhu"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignTop="@id/tv_cinfo_name"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/detail_guanzhu"
+                android:layout_marginRight="20dp"
+                android:button="@null"
+                />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rl_cinfo_lable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/tv_cinfo_goto"
+                android:layout_below="@+id/tv_cinfo_name"
+                android:layout_alignTop="@id/tv_cinfo_goto"
+                android:layout_marginHorizontal="20dp"
+                />
+
+            
+            <TextView
+                android:id="@+id/tv_cinfo_goto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="到这去"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:paddingLeft="10dp"
+                android:paddingVertical="6dp"
+                android:layout_alignParentRight="true"
+                android:drawableLeft="@mipmap/dyp_jian"
+                android:layout_marginRight="20dp"
+                android:gravity="right"
+                android:layout_below="@+id/cb_cinfo_guanzhu"
+                android:layout_marginTop="20dp"
+                />
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tl_cinfo"
+                android:layout_below="@id/rl_cinfo_lable"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginVertical="20dp"
+                android:background="@color/utem_bg"
+                app:tabTextColor="@color/white"
+                app:tabIndicatorColor="@color/colorAccent"
+                />
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/vp_cinfo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/tl_cinfo"
+
+                />
+        </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_movielist"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="查看该影院电影排期"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorAccent"
+        />
+
+</RelativeLayout>

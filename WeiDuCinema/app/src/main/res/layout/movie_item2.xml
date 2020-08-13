@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rl_movie_h"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#1C2243"
+            android:layout_marginTop="60dp"
+            >
+
+            <TextView
+                android:id="@+id/ee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                />
+
+            <TextView
+                android:id="@+id/tv_movie2_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="姓名"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_alignLeft="@id/ee"
+                />
+
+            <TextView
+                android:id="@+id/tv_movie_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上映时间"
+                android:textColor="#ffffff"
+                android:layout_alignLeft="@id/tv_movie2_name"
+                android:layout_below="@id/tv_movie2_name"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:id="@+id/tv_movie_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1222"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:layout_alignLeft="@id/tv_movie_time"
+                android:layout_below="@id/tv_movie_time"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="人想看"
+                android:textColor="#ffffff"
+                android:layout_below="@id/tv_movie_time"
+                android:layout_toRightOf="@+id/tv_movie_num"
+                android:layout_marginTop="10dp"
+                android:layout_alignBottom="@id/tv_movie_num"
+                android:gravity="bottom"
+                />
+            <CheckBox
+                android:id="@+id/cb_reserve"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/reserve"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_alignBottom="@id/tv_movie_num"
+                android:button="@null"
+                android:gravity="center"
+                />
+
+        </RelativeLayout>
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/sdv_pic_shui"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            app:placeholderImage="@mipmap/ic_launcher"
+            app:failureImage="@mipmap/ic_launcher"
+            app:roundedCornerRadius="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            />
+        
+    </RelativeLayout>
+
+</RelativeLayout>

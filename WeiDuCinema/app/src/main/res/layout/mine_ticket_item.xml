@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/utem_bg"
+        android:id="@+id/rl_my_ticket"
+        >
+
+        <ImageView
+            android:id="@+id/acc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@mipmap/movie_ticket" />
+
+        <TextView
+            android:id="@+id/tv_name_mine_ticket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/acc"
+            android:layout_alignBottom="@id/acc"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:text="电影名称"
+            android:textColor="#282D4D"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/acc"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/seat"
+            android:id="@+id/s_iv"
+            />
+        <TextView
+            android:id="@+id/tv_seat_mine_ticket"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/s_iv"
+            android:text="座位信息"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/dotted_line"
+            android:layout_toRightOf="@id/tv_seat_mine_ticket"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/tv_dotted"
+            />
+        <TextView
+            android:id="@+id/tv_cinema_name_mine_ticket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name_mine_ticket"
+            android:layout_toRightOf="@id/tv_dotted"
+            android:text="影院名"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:id="@+id/tv_hall_mine_ticket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_cinema_name_mine_ticket"
+            android:layout_toRightOf="@id/tv_dotted"
+            android:text="电影厅"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:id="@+id/tv_date_mine_ticket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_hall_mine_ticket"
+            android:layout_toRightOf="@id/tv_dotted"
+            android:text="日期"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_time_mine_ticket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_date_mine_ticket"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/tv_dotted"
+            android:text="开始-结束"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_marginBottom="30dp"
+            />
+
+        <Button
+            android:id="@+id/but_see_erwm_mine_ticket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查看取票码"
+            android:textColor="@color/white"
+            android:background="@drawable/edittext"
+            android:backgroundTint="@color/colorAccent"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@id/tv_seat_mine_ticket"
+            android:layout_marginRight="20dp"
+            android:textSize="15sp"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

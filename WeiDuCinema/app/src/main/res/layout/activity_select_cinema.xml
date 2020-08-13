@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.SelectCinemaActivity"
+    android:background="#141931"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/but_back_buy"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@mipmap/jian"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            />
+        <fm.jiecao.jcvideoplayer_lib.JCVideoPlayerStandard
+            android:id="@+id/jcvps_ygp_buy"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            />
+        <TextView
+            android:id="@+id/tv_name_buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="不知道啥名"
+            android:layout_below="@id/jcvps_ygp_buy"
+            android:layout_alignLeft="@id/but_back_buy"
+            />
+
+        <LinearLayout
+            android:id="@+id/xx_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="20dp"
+            android:orientation="horizontal"
+            android:layout_below="@+id/tv_name_buy"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:id="@+id/tv_time_buy"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:text="时长:\n\n128分钟"
+                />
+            <TextView
+                android:id="@+id/tv_score_buy"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:text="评分:\n\n8.1分"
+                />
+            <TextView
+                android:id="@+id/tv_dao_buy"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:text="导演:\n\n奥斯特洛夫斯基"
+                />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_cinema_buy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/xx_ll"
+            android:layout_marginTop="20dp"
+            />
+
+    </RelativeLayout>
+
+
+</ScrollView>

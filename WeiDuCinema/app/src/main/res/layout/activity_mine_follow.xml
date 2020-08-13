@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.mine.MineFollowActivity"
+    android:background="#141931"
+    >
+
+    <TextView
+        android:id="@+id/l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我的关注"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        />
+    <Button
+        android:id="@+id/but_back_minefollow"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@mipmap/jian"
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@id/l"
+        />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tl_minefollow"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/l"
+        android:background="@color/utem_bg"
+        android:layout_marginTop="20dp"
+        app:tabTextColor="@color/white"
+        app:tabIndicatorColor="@color/colorAccent"
+        />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_minefollow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tl_minefollow"
+        android:layout_margin="20dp"
+        />
+
+</RelativeLayout>

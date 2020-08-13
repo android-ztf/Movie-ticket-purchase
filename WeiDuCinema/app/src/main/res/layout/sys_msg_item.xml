@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/utem_bg"
+        android:id="@+id/rl_sys_msg"
+        >
+
+        <ImageView
+            android:id="@+id/iv_sta_read"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/red_yuan"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"
+
+            />
+        <TextView
+            android:id="@+id/xxkk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/iv_sta_read"
+            android:text="系统消息"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:id="@+id/tv_sys_msg_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_alignTop="@id/xxkk"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="时间"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/tv_sys_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:maxEms="30"
+            android:layout_below="@id/xxkk"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="内容没了!!"
+            />
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

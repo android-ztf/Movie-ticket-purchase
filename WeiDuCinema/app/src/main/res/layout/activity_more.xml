@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.MoreActivity"
+    android:background="#141931"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/more_rl"
+        android:paddingHorizontal="20dp"
+        >
+        <Button
+            android:id="@+id/but_back_more"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@mipmap/jian"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            />
+        <EditText
+            android:id="@+id/et_seek_more"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/seekedit"
+            android:layout_toRightOf="@id/but_back_more"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:paddingLeft="20dp"
+            android:hint="请输入搜索内容"
+            android:inputType="text"
+            android:visibility="invisible"
+            />
+
+        <ImageView
+            android:id="@+id/iv_seek_more"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/sosuo"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tl_more"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/more_rl"
+        android:layout_marginTop="20dp"
+        app:tabIndicatorColor="#E8185E"
+        app:tabTextColor="#ffffff"
+        android:background="#1C2243"
+        app:tabMaxWidth="200dp"
+        app:tabMinWidth="20dp"
+        app:tabPaddingStart="12dp"
+        app:tabPaddingEnd="8dp"
+        />
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_more"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_below="@id/tl_more"
+        />
+
+</RelativeLayout>

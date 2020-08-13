@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.ForgetPwdActivity"
+    android:background="@mipmap/login_bg"
+
+    >
+
+    <TextView
+        android:id="@+id/l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="忘记密码"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        />
+    <Button
+        android:id="@+id/but_back_forget"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@mipmap/jian"
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@id/l"
+        />
+
+    <TextView
+        android:id="@+id/aaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/aaa"
+
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="20dp"
+            >
+
+            <EditText
+                android:id="@+id/et_email_fg"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="请输入邮箱账号"
+                android:textColorHint="#999999"
+                android:paddingLeft="20dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/edittext"
+                android:textColor="#ffffff"
+                android:inputType="textEmailAddress"
+                />
+
+            <EditText
+                android:id="@+id/et_oldpwd_fg"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="请输入老密码"
+                android:textColorHint="#999999"
+                android:paddingLeft="20dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/edittext"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/et_email_fg"
+                android:layout_marginTop="30dp"
+                android:inputType="textPassword"
+                />
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:max="100"
+                android:maxHeight="45dp"
+                android:minHeight="45dp"
+                android:progress="0"
+                android:clickable="false"
+                android:progressDrawable="@drawable/bg_forgotpassword_seekbar"
+                android:thumb="@drawable/bg_seekbar_thumb"
+                android:id="@+id/sb_progress"
+                android:thumbOffset="-1dp"
+                android:layout_below="@id/et_oldpwd_fg"
+                android:layout_marginTop="30dp"
+                />
+            <EditText
+                android:id="@+id/et_newpwd1_fg"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="请输入新密码"
+                android:textColorHint="#999999"
+                android:paddingLeft="20dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/edittext"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/sb_progress"
+                android:layout_marginTop="30dp"
+                android:focusable="false"
+                android:inputType="textPassword"
+                />
+            <EditText
+                android:id="@+id/et_newpwd2_fg"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="请再输入新密码"
+                android:textColorHint="#999999"
+                android:paddingLeft="20dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/edittext"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/et_newpwd1_fg"
+                android:layout_marginTop="30dp"
+                android:focusable="false"
+                android:inputType="textPassword"
+                />
+
+            <Button
+                android:id="@+id/but_login_fg"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/button2"
+                android:backgroundTint="#FF72A1"
+                android:text="修改密码"
+                android:textColor="#ffffff"
+                android:layout_below="@id/et_newpwd2_fg"
+                android:layout_marginTop="30dp"
+                android:layout_centerHorizontal="true"
+                android:enabled="false"
+                />
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>
